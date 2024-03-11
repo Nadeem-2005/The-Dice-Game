@@ -54,3 +54,27 @@ button{
   gap: 52px;
   justify-content: center;
 }
+@media (max-width:980px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 100px;
+  }
+  #player_1,#player_2{
+    font-size: 70px;
+  }
+  #p1_point,#p2_point{
+    font-size: 3rem;
+  }
+  button{
+    width: 25%;
+    margin-left: 37%;
+    height: 70px;
+    font-size: 30px;
+  }
+  footer{
+    font-size: xx-large;
+  }
+}
